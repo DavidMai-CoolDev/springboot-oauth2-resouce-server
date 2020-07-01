@@ -1,0 +1,16 @@
+server:
+  port: 9000
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: |
+         -----BEGIN PUBLIC KEY-----
+         MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkRFyYGyfSU0PVd58somJ
+         PJfcllWp5aCz7m4/yygbwUBW/z13BeHWYHECmrh8rkfaY7imiupgjwQC5UHZLbPR
+         VOy2PhUViQaI9r+zI3B6pKGnO4uRHsFwTWmvCak94pymHAPHLp3gIx8V5GtuOgVt
+         83wbeUqOoI4iLDqVe5tqKLuz8bTNGMVrO2To9PyF/30U1Scmr6nVe1oIR5DXqosb
+         bWOIOtLlZVmY7NCtgQrCPFWVvRy0gSvAXc8IA4JkZXdzFubXY9ocfc9WFVGfPYp4
+         z7n1gmE0MvQ2GlMUy2srfseUzGT1RsqyQrrrTkWOGlAr2xqHn52r+GJ3L2uv8Nnb
+         SQIDAQAB
+         -----END PUBLIC KEY-----
